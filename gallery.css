@@ -58,7 +58,7 @@ li button {
 .g-1 {
     font-size: 17px;
     line-height: 27px;
-    text-align:center ;
+    text-align: center;
     width: 650px;
     margin: 10px auto;
     display: flex;
@@ -66,45 +66,42 @@ li button {
     word-spacing: 5px;
 
 }
-.g-2{
-  
-    margin-top: 25px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    
-}
-.g-2 a{
-    text-decoration: none;
-    color:rgb(121, 166, 144);
+.tittle-carouasal{
+    text-align: center;
+    font-style: italic;
+  font-size: 24px;
+  color: darkcyan;
+  margin-top: 10px;
+  margin-bottom: 10px;
+   
 }
 
-
-iframe {
-  width: 50%;
-  height: 500px;
-  margin-top: 20px;
-  border-radius: 20px;
-  border: none;
-  
- 
+.main-carousel img {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
-footer{
-    margin-top: 20px;
+.thumb-carousel img {
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
 }
-.frame{
-    display:flex ;
-    justify-content: center;
+
+.thumb-carousel button:hover img,
+.thumb-carousel .active img {
+    border-color: #198754;
 }
 
 .footer-above {
-  
+
     display: flex;
     justify-content: center;
     gap: 10%;
     height: 10vh;
-   
+
 }
 
 .f-1 {
@@ -137,57 +134,69 @@ footer{
     gap: 10%;
     overflow: hidden;
 }
-.fb{
+
+.fb {
     height: 40px;
     width: 40px;
     border-radius: 30px;
 }
-.social-media{
+
+.social-media {
     height: 40px;
     width: 40px;
     border-radius: 40px;
-   
-    
+
+
 }
-.ftm-1{
+
+.ftm-1 {
     padding: 18px;
     font-size: 25px;
     color: white;
     word-spacing: 3px;
 }
-.ftm-2 img{
+
+.ftm-2 img {
     margin-top: 5px;
-   gap: 20%;
-   margin-left: 15px;
+    gap: 20%;
+    margin-left: 15px;
 }
-.ftm-3{
+
+.ftm-3 {
     margin-top: 10px;
-     font-size: 25px;
-     color: white;
-     padding: 10px;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
 
 }
-.ftm-3-1{
+
+.ftm-3-1 {
     font-weight: bold;
     font-size: 22px;
 }
-.ftm-3-2{
+
+.ftm-3-2 {
     color: white;
 }
-.ftm-3-3{
+
+.ftm-3-3 {
     color: white;
 }
-.ftm-3-4{
-     color: #00c65e;
+
+.ftm-3-4 {
+    color: #00c65e;
 }
- a{
+
+a {
     text-decoration: none;
 }
-.btn-nav a{
-   text-decoration: none;
-    
+
+.btn-nav a {
+    text-decoration: none;
+
 }
-.btn-nav a:hover{
+
+.btn-nav a:hover {
     background-color: black;
     color: white;
 }

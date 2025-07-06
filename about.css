@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main {
+ 
+  background-image: url('public/images/dora-1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150vh;
+  width: 99vw;
+
+
+}
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+ul {
+  list-style: none;
+  display: flex;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo-1 img {
+  height: 80px;
+  margin-top: 10px;
+}
+
+ul {
+  gap: 20px;
+}
+
+ul li {
+  font-size: 18px;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+li button {
+  width: 180px;
+  padding: 10px;
+  margin-top: -15px;
+  border-radius: 20px;
+  background: none;
+  text-align: center;
+  font-size: 17 px;
+  border-width: 0.5px;
+}
+
+.jst a:hover {
+  background-color: gainsboro;
+}
+
+.btn-logo:hover {
+    background-color: black;
+    color: white;
+}

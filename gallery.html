@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GALLERY</title>
     <link rel="stylesheet" href="gallery.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -34,36 +36,99 @@
             lacinia in, tincidunt eget mi. Praesent finibus mollis blandit. Suspendisse vulputate turpis et erat iaculis
             viverra.
         </div>
-        <div class="g-2">
-            <span><a href="public/images/photo-5.webp" target="if">GALERIA 1</a></span>
-            <span><a href="public/images/photo-6.webp" target="if">GALLERY 2</a></span>
-            <span><a href="public/images/photo-7.webp"target="if">GALLERY 3</a></span>
-            <span><a href="public/images/photo-8.webp"target="if">GALLERY 4</a></span>
-        </div>
-        <div class="frame">
-            <iframe src="public/images/Gallery_6.webp" name="if" class="if"></iframe>
-        </div>
-        <footer>
-            <div class="ftr">
-                <div class="ftr-1">
-                    <div class="ftm-1">
-                  Check us out:
-                </div>
-                <div class="ftm-2">
-                   <span><a href="https://www.facebook.com/"><img src="public/images/logo-1.jpeg" class="social-media"></a></span>
-                   <span><a href="https://www.youtube.com/"><img src="public/images/logo-2.jpeg" class="social-media"></a></span>
-                   <span><a href="https://www.instagram.com/"><img src="public/images/logo-3.jpeg" class="social-media"></a></span>
-                </div>
-                <div class="ftm-3">
-                    A website created in the <span class="ftm-3-1"> <span class="ftm-3-2" ><a href="https://webwave..me/?utm_medium=wwown&utm_source=footer"><span class="ftm-3-3" >Web</span> <span class="ftm-3-4">Wave</span></a></span> builder</span>.
-                </div>
-                
-                </div>
-                
 
-            </div>
-        </footer>
     </div>
+    <div class="tittle-carouasal">
+        BEST PLACES WISIT
+
+    </div>
+
+    <div class="container my-4">
+        <!-- Main Carousel -->
+        <div id="mainCarousel" class="carousel slide main-carousel" data-bs-ride="carousel" data-bs-interval="2000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="public/images/Gallery_6.webp" class="d-block w-100" alt="Image 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="public/images/photo-5.webp" class="d-block w-100" alt="Image 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="public/images/photo-6.webp" class="d-block w-100" alt="Image 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="public/images/photo-7.webp" class="d-block w-100" alt="Image 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="public/images/photo-8.webp" class="d-block w-100" alt="Image 4">
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Thumbnail Carousel Controls -->
+        <div class="row mt-3 justify-content-center text-center thumb-carousel">
+            <div class="col-auto">
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1">
+                    <img src="public/images/Gallery_6.webp" width="150" alt="Thumb 1">
+                </button>
+            </div>
+            <div class="col-auto">
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2">
+                    <img src="public/images/photo-5.webp" width="150" alt="Thumb 2">
+                </button>
+            </div>
+            <div class="col-auto">
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3">
+                    <img src="public/images/photo-6.webp" width="150" alt="Thumb 3">
+                </button>
+            </div>
+            <div class="col-auto">
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="3" aria-label="Slide 4">
+                    <img src="public/images/photo-7.webp" width="150" alt="Thumb 4">
+                </button>
+            </div>
+            <div class="col-auto">
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="4" aria-label="Slide 5">
+                    <img src="public/images/photo-8.webp" width="150" alt="Thumb 5">
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+<footer>
+    <div class="ftr">
+        <div class="ftr-1">
+            <div class="ftm-1">
+                Check us out:
+            </div>
+            <div class="ftm-2">
+                <span><a href="https://www.facebook.com/"><img src="public/images/logo-1.jpeg"
+                            class="social-media"></a></span>
+                <span><a href="https://www.youtube.com/"><img src="public/images/logo-2.jpeg"
+                            class="social-media"></a></span>
+                <span><a href="https://www.instagram.com/"><img src="public/images/logo-3.jpeg"
+                            class="social-media"></a></span>
+            </div>
+            <div class="ftm-3">
+                A website created in the <span class="ftm-3-1"> <span class="ftm-3-2"><a
+                            href="https://webwave..me/?utm_medium=wwown&utm_source=footer"><span
+                                class="ftm-3-3">Web</span> <span class="ftm-3-4">Wave</span></a></span> builder</span>.
+            </div>
+
+        </div>
+
+
+    </div>
+</footer>
+</div>
 
 </body>
 
