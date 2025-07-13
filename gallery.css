@@ -22,22 +22,32 @@ li a {
 
 }
 
-li button {
+ .btn-logo {
+    display: inline-block;
     width: 180px;
-    padding: 10px;
-    margin-top: -15px;
-    border-radius: 20px;
-    background: none;
+    padding: 8px 0;
+    background-color: transparent;
+    color: black;
+    border: 0.5px solid black;
+    border-radius: 30px;
     text-align: center;
+    transition: 0.3s ease;
     font-size: 15px;
-    border-width: 0.5px;
+    text-decoration: none;
+    margin-top: -14px;
+
+}
+
+.btn-logo:hover{
+    background-color: black;
+    color: white;
 }
 
 .nav-btn {
     margin-top: 15px;
 }
 
-.nav-btn a:hover {
+.tabs:hover {
     background-color: gainsboro;
 }
 
@@ -94,59 +104,41 @@ li button {
 .thumb-carousel .active img {
     border-color: #198754;
 }
-
 .footer-above {
-
+    margin-top: 480px;
     display: flex;
     justify-content: center;
     gap: 10%;
     height: 10vh;
-
-}
-
-.f-1 {
-    font-size: 30px;
-    margin-top: 5px;
-    font-family: sanasrif;
-}
-
-.btn-fa {
-    width: 180px;
-    padding: 15px;
-    border-radius: 20px;
-    border: none;
-    margin-top: -10px;
-    background-color: green;
-
-}
-
-.btn-fa a {
-
-    font-size: 20px;
-    color: white;
+   
 }
 
 .ftr {
-    height: 200px;
-    width: 98.5vw;
+    height: 230px;
+    width: 99vw;
     background-color: rgb(78, 94, 102);
     text-align: center;
     gap: 10%;
-    overflow: hidden;
 }
 
-.fb {
-    height: 40px;
-    width: 40px;
-    border-radius: 30px;
-}
+
 
 .social-media {
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     border-radius: 40px;
 
 
+}
+.social-media-1{
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+}
+.social-media-2{
+     height: 60px;
+    width: 62px;
+    border-radius: 40px;
 }
 
 .ftm-1 {
@@ -167,6 +159,7 @@ li button {
     font-size: 25px;
     color: white;
     padding: 10px;
+    
 
 }
 
@@ -185,18 +178,4 @@ li button {
 
 .ftm-3-4 {
     color: #00c65e;
-}
-
-a {
-    text-decoration: none;
-}
-
-.btn-nav a {
-    text-decoration: none;
-
-}
-
-.btn-nav a:hover {
-    background-color: black;
-    color: white;
 }

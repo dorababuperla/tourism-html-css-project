@@ -49,24 +49,30 @@ ul li {
 
 }
 
-li button {
-  width: 180px;
-  padding: 10px;
-  margin-top: -15px;
-  border-radius: 20px;
-  background: none;
-  text-align: center;
-  font-size: 17 px;
-  border-width: 0.5px;
+ .btn-logo {
+    display: inline-block;
+    width: 180px;
+    padding: 8px 0;
+    background-color: transparent;
+    color: black;
+    border: 0.5px solid black;
+    border-radius: 30px;
+    text-align: center;
+    transition: 0.3s ease;
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: -10px;
+   
+
 }
 
-.jst a:hover {
-  background-color: gainsboro;
+.btn-logo:hover{
+    background-color: black;
+    color: white;
 }
 
-.btn-logo:hover {
-  background-color: black;
-  color: white;
+.tabs:hover {
+    background-color: gainsboro;
 }
 
 .about-imp {
@@ -173,18 +179,24 @@ li button {
     gap: 10%;
     overflow: hidden;
 }
-.fb{
-    height: 40px;
-    width: 40px;
-    border-radius: 30px;
-}
-.social-media{
-    height: 40px;
-    width: 40px;
+.social-media {
+    height: 60px;
+    width: 60px;
     border-radius: 40px;
-   
-    
+
+
 }
+.social-media-1{
+    height: 78px;
+    width: 60px;
+    border-radius: 40px;
+}
+.social-media-2{
+     height: 68px;
+    width: 62px;
+    border-radius: 40px;
+}
+
 .ftm-1{
     padding: 18px;
     font-size: 25px;
