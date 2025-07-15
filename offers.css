@@ -148,25 +148,32 @@ a {
     text-align: center;
     gap: 10%;
     overflow: hidden;
+    margin-left: -8PX;
 }
-
-.social-media-3{
-    height: 70px;
-    width: 60px;
-    border-radius: 40px;
-
+.facebook {
+  height: 60px;
+width: 60px;
 
 }
-.social-media-1{
-    height: 60px;
-    width: 60px;
-    border-radius: 40px;
+.youtube {
+    height: 52px;
+  width: 55px;
+ 
+
 }
-.social-media-2{
-     height: 60px;
-    width: 62px;
-    border-radius: 40px;
+.insta{
+      height: 68px;
+    width: 58px;
+
 }
+
+
+.ftm-3 {
+  font-size: 20px;
+  margin-top: 20px;
+  font-style: italic;
+}
+
 .ftm-1{
     padding: 18px;
     font-size: 25px;

@@ -8,7 +8,7 @@
   background-image: url('public/images/blog_main.webp');
   background-position: center;
   background-repeat: no-repeat;
-  height: 150vh;
+  height: 1100px;
   width: 99vw;
 
 
@@ -81,7 +81,7 @@ ul li {
 
 .landpage-content {
   text-align: center;
-  margin-top: 20%;
+  margin-top: 10%;
 
 }
 
@@ -236,10 +236,21 @@ footer{
     color: white;
     word-spacing: 3px;
 }
-.ftm-2 img{
-    margin-top: 5px;
-   gap: 20%;
-   margin-left: 15px;
+.facebook {
+  height: 60px;
+width: 60px;
+
+}
+.youtube {
+    height: 52px;
+  width: 55px;
+ 
+
+}
+.insta{
+      height: 68px;
+    width: 58px;
+
 }
 .ftm-3{
     margin-top: 10px;

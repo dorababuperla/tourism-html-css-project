@@ -5,12 +5,14 @@
 }
 
 .main {
-    background-image: url('public/images/about-us_1.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    width: 100vw;
+  background-image: url('public/images/about-us_1.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 800px;
+  width: 100%;
+  overflow: hidden;
+
 }
 
 .logo {
@@ -81,6 +83,8 @@ ul li {
 .about-2 {
     text-align: center;
     margin-left: 230px;
+    height: 100px;
+     
 }
 
 .m-1 {
@@ -112,12 +116,14 @@ ul li {
 }
 
 .frame {
-    display: flex;
-    justify-content: center;
+ margin-top: -200px;
+    
 }
 
 iframe {
-   margin-top: -20%;
+   
+  margin:-10% 0;
+
 }
 
 .form {
@@ -224,33 +230,27 @@ footer{
 }
 
 
-.social-media {
-    height: 60px;
-    width: 60px;
-    border-radius: 40px;
-
-
-}
-.social-media-1{
-    height: 78px;
-    width: 60px;
-    border-radius: 40px;
-}
-.social-media-2{
-     height: 68px;
-    width: 62px;
-    border-radius: 40px;
-}
 .ftm-1{
     padding: 18px;
     font-size: 25px;
     color: white;
     word-spacing: 3px;
 }
-.ftm-2 img{
-    margin-top: 5px;
-   gap: 20%;
-   margin-left: 15px;
+.facebook {
+  height: 60px;
+width: 60px;
+
+}
+.youtube {
+    height: 52px;
+  width: 55px;
+ 
+
+}
+.insta{
+      height: 68px;
+    width: 58px;
+
 }
 .ftm-3{
     margin-top: 10px;

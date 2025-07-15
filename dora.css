@@ -1,0 +1,51 @@
+.dora-img{
+    width: 500px;
+    height: 500px;
+   
+    border-radius: 30px;
+   display: flex;
+   
+}
+.dora-img:hover{
+    transform: rotate(360deg);
+  transition: transform 60s ease; transition: transform 60s ease;
+  
+}
+.btn{
+  color: red;
+  background-color: white;
+  text-decoration: none;
+  font-size: 20px;
+padding: 10px;
+ text-align: center;
+ border-radius: 5px;
+}
+.tab{
+  margin-bottom: 5px;
+  margin-left: 1400px;
+  
+
+}
+
+.pic{
+    display: flex;
+    justify-content: center;
+    margin-top:110px;
+}
+body{
+  background-color:rgb(86, 86, 44);
+  
+  
+}
+
+.name{
+  position: absolute;
+     left: 850px;
+    top: 135px;
+    color: yellow;
+     opacity: 0.5;
+}
+.name:hover{
+ transform: rotate(360deg);
+  transition: transform 20s ease;
+}
